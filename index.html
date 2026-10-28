@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d0d0d">
+  <meta name="description" content="Discover ALI ESSENCE: a considered collection of extraordinary fragrances, composed for the moments that matter.">
+  <title>ALI ESSENCE — Luxury Fragrances</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#home" aria-label="ALI ESSENCE home">
+      <img src="assets/ali-logo.png" alt="ALI ESSENCE logo">
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#collections">Collections</a>
+      <a href="#story">Our story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-trigger" type="button" aria-label="Open shopping bag, 0 items" aria-controls="cart-drawer" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 8.5h13l1 12h-15l1-12Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg>
+      <span class="cart-count" aria-live="polite">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> A study in extraordinary scent <span></span></p>
+        <h1 id="hero-title">EXPERIENCE<br>THE ART <i>OF</i> SCENT</h1>
+        <p class="hero-copy">Discover our signature luxury collection, inspired by rare ingredients and made to leave an impression.</p>
+        <a class="button button-gold" href="#collections">Explore the collection <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-caption"><span>01 / 08</span><span>THE SIGNATURE COLLECTION</span><span>EST. MMXX</span></div>
+      <a class="scroll-cue" href="#collections" aria-label="Scroll to the collection"><span></span> DISCOVER</a>
+    </section>
+
+    <section class="collections section-pad" id="collections" aria-labelledby="collections-title">
+      <div class="section-heading">
+        <p class="eyebrow"><span></span> A fragrance for every feeling <span></span></p>
+        <h2 id="collections-title">The <i>Collection</i></h2>
+        <p>Eight distinct expressions. One unmistakable signature.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card reveal" style="--delay: 0ms">
+          <div class="product-visual visual-crimson" role="img" aria-label="Crimson and gold Night Vibes perfume bottle">
+            <img class="product-photo" src="assets/product-1.jpe" alt="Night Vibes perfume bottle">
+            <span class="visual-index">01 — NOCTURNE</span><div class="bottle"><span class="bottle-cap"></span><span class="bottle-neck"></span><span class="bottle-body"><span class="bottle-brand">ALI<br><small>ESSENCE</small></span><span class="bottle-label">NIGHT<br>VIBES</span></span></div><span class="visual-note">EAU DE PARFUM · 50 ML</span>
+          </div>
+          <div class="product-info"><div><p class="product-family">AMBER · SPICE · MIDNIGHT</p><h3>Night Vibes</h3><p class="product-description">A velvet-dark composition with a lingering, magnetic warmth.</p></div><div class="product-buy"><span class="price">$145</span><button class="add-button" type="button" data-product="Night Vibes" data-price="145">Add to bag <span>+</span></button></div></div>
+        </article>
+        <article class="product-card reveal" style="--delay: 70ms">
+          <div class="product-visual visual-sapphire" role="img" aria-label="Sapphire blue and silver Crystal Ice perfume bottle">
+            <img class="product-photo" src="assets/image_eb0313c7.jpg" alt="Crystal Ice perfume bottle">
+            <span class="visual-index">02 — GLACIAL</span><div class="bottle"><span class="bottle-cap"></span><span class="bottle-neck"></span><span class="bottle-body"><span class="bottle-brand">ALI<br><small>ESSENCE</small></span><span class="bottle-label">CRYSTAL<br>ICE</span></span></div><span class="visual-note">EAU DE PARFUM · 50 ML</span>
+          </div>
+          <div class="product-info"><div><p class="product-family">CITRUS · MINERAL · MUSK</p><h3>Crystal Ice</h3><p class="product-description">Cool, crystalline freshness with an effortlessly elegant finish.</p></div><div class="product-buy"><span class="price">$138</span><button class="add-button" type="button" data-product="Crystal Ice" data-price="138">Add to bag <span>+</span></button></div></div>
+        </article>
+        <article class="product-card reveal" style="--delay: 140ms">
+          <div class="product-visual visual-onyx" role="img" aria-label="Matte black and gold Paradise Garden perfume bottle">
+            <img class="product-photo" src="assets/image_eb0313c7 (1).jpg" alt="Paradise Garden perfume bottle">
+            <span class="visual-index">03 — EDEN</span><div class="bottle"><span class="bottle-cap"></span><span class="bottle-neck"></span><span class="bottle-body"><span class="bottle-brand">ALI<br><small>ESSENCE</small></span><span class="bottle-label">PARADISE<br>GARDEN</span></span></div><span class="visual-note">EAU DE PARFUM · 50 ML</span>
+          </div>
+          <div class="product-info"><div><p class="product-family">GREEN FIG · JASMINE · OUD</p><h3>Paradise Garden</h3><p class="product-description">An unexpected garden of lush green notes and precious woods.</p></div><div class="product-buy"><span class="price">$152</span><button class="add-button" type="button" data-product="Paradise Garden" data-price="152">Add to bag <span>+</span></button></div></div>
+        </article>
+        <article class="product-card reveal" style="--delay: 0ms">
+          <div class="product-visual visual-marble" role="img" aria-label="Clear golden Gentlemen perfume bottle against marble">
+            <img class="product-photo" src="assets/image_8611140.jpg" alt="Gentlemen perfume bottle">
+            <span class="visual-index">04 — THE GENTLEMAN</span><div class="bottle"><span class="bottle-cap"></span><span class="bottle-neck"></span><span class="bottle-body"><span class="bottle-brand">ALI<br><small>ESSENCE</small></span><span class="bottle-label">GENTLE<br>MEN</span></span></div><span class="visual-note">EAU DE PARFUM · 50 ML</span>
+          </div>
+          <div class="product-info"><div><p class="product-family">BERGAMOT · VETIVER · CEDAR</p><h3>Gentlemen</h3><p class="product-description">Polished woods and golden citrus for quiet, confident presence.</p></div><div class="product-buy"><span class="price">$148</span><button class="add-button" type="button" data-product="Gentlemen" data-price="148">Add to bag <span>+</span></button></div></div>
+        </article>
+        <article class="product-card reveal" style="--delay: 70ms">
+          <div class="product-visual visual-violet" role="img" aria-label="Royal purple and floral gold The Pink Petals perfume bottle">
+            <img class="product-photo" src="assets/pink-petals.png" alt="">
+            <span class="visual-index">05 — FLORA</span><span class="visual-note">EAU DE PARFUM · 50 ML</span>
+          </div>
+          <div class="product-info"><div><p class="product-family">ROSE · PEONY · CASHMERE</p><h3>The Pink Petals</h3><p class="product-description">Velvety petals and soft spice, unfolding like a secret garden.</p></div><div class="product-buy"><span class="price">$142</span><button class="add-button" type="button" data-product="The Pink Petals" data-price="142">Add to bag <span>+</span></button></div></div>
+        </article>
+        <article class="product-card reveal" style="--delay: 140ms">
+          <div class="product-visual visual-desert" role="img" aria-label="Amber and crimson Arabian Desert perfume bottle">
+            <img class="product-photo" src="assets/image_86ac25d6.jpg" alt="Arabian Desert perfume bottle">
+            <span class="visual-index">06 — SAHARA</span><div class="bottle"><span class="bottle-cap"></span><span class="bottle-neck"></span><span class="bottle-body"><span class="bottle-brand">ALI<br><small>ESSENCE</small></span><span class="bottle-label">ARABIAN<br>DESERT</span></span></div><span class="visual-note">EAU DE PARFUM · 50 ML</span>
+          </div>
+          <div class="product-info"><div><p class="product-family">SAFFRON · AMBER · SMOKE</p><h3>Arabian Desert</h3><p class="product-description">Sun-warmed amber and rare resins evoke the desert at dusk.</p></div><div class="product-buy"><span class="price">$165</span><button class="add-button" type="button" data-product="Arabian Desert" data-price="165">Add to bag <span>+</span></button></div></div>
+        </article>
+        <article class="product-card reveal" style="--delay: 0ms">
+          <div class="product-visual visual-rose" role="img" aria-label="Rose pink and soft white Wish Her perfume bottle">
+            <img class="product-photo" src="assets/image_b6588d69.jpg" alt="Wish Her perfume bottle">
+            <span class="visual-index">07 — WISH</span><div class="bottle"><span class="bottle-cap"></span><span class="bottle-neck"></span><span class="bottle-body"><span class="bottle-brand">ALI<br><small>ESSENCE</small></span><span class="bottle-label">WISH<br>HER</span></span></div><span class="visual-note">EAU DE PARFUM · 50 ML</span>
+          </div>
+          <div class="product-info"><div><p class="product-family">ROSEWATER · IRIS · VANILLA</p><h3>Wish Her</h3><p class="product-description">A luminous floral with a tender, skin-close warmth.</p></div><div class="product-buy"><span class="price">$139</span><button class="add-button" type="button" data-product="Wish Her" data-price="139">Add to bag <span>+</span></button></div></div>
+        </article>
+        <article class="product-card reveal" style="--delay: 70ms">
+          <div class="product-visual visual-photo" role="img" aria-label="Imperial Crown perfume with a black and gold presentation canister">
+            <img class="product-photo" src="assets/imperial-crown.png" alt="">
+            <span class="visual-index">08 — IMPERIAL</span><span class="visual-note">EAU DE PARFUM · 50 ML</span>
+          </div>
+          <div class="product-info"><div><p class="product-family">SAFFRON · AMBER · IMPERIAL OUD</p><h3>Imperial Crown</h3><p class="product-description">A regal blend of rich amber and precious oud, presented in a signature gold-trimmed canister.</p></div><div class="product-buy"><span class="price">$175</span><button class="add-button" type="button" data-product="Imperial Crown" data-price="175">Add to bag <span>+</span></button></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="craft section-pad" id="story" aria-labelledby="craft-title">
+      <div class="craft-image" role="img" aria-label="Sculptural perfume bottle among warm stone and shadow"><div class="craft-image-frame"><span>THE ART OF<br>THE UNSEEN</span><span class="image-coordinate">25° 12' N — 55° 16' E</span></div></div>
+      <div class="craft-copy"><p class="eyebrow"><span></span> Made with intention</p><h2 id="craft-title">A legacy in<br><i>every drop.</i></h2><p>We believe the finest fragrances are not simply worn; they are remembered. ALI ESSENCE begins with rich, raw oils, carefully chosen for their complexity, character, and ability to transport.</p><p>Each composition is matured, blended, and poured with intention. Our custom cylindrical canisters, finished with a signature geometric gold motif, make the first impression as enduring as the last.</p><a href="#contact" class="text-link">Discover our philosophy <span aria-hidden="true">↗</span></a><div class="craft-seal" aria-hidden="true">A<br>E</div></div>
+    </section>
+
+    <section class="quote-band" aria-label="Our philosophy">
+      <p>“A fragrance is the <i>invisible</i> signature we leave behind.”</p><span>THE ALI ESSENCE PHILOSOPHY</span>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="wordmark" href="#home">ALI <span>ESSENCE</span><small>PARFUMS D’EXCEPTION</small></a><p>For those who leave an impression.</p></div>
+      <div class="footer-links"><p class="footer-label">EXPLORE</p><a href="#collections">The collection</a><a href="#story">Our story</a><a href="tel:+923118226278">Call: 03118226278</a><a href="https://wa.me/923118226278?text=Hello%20ALI%20ESSENCE%2C%20I%20would%20like%20to%20know%20more%20about%20your%20fragrances." target="_blank" rel="noreferrer">WhatsApp chat</a></div>
+      <div class="newsletter"><p class="footer-label">A NOTE FROM US</p><p>Discover new compositions, private editions, and moments worth remembering.</p><form class="newsletter-form"><label class="visually-hidden" for="newsletter-email">Your email address</label><input id="newsletter-email" name="email" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe to newsletter">↗</button></form><p class="newsletter-status" aria-live="polite"></p></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> ALI ESSENCE. ALL RIGHTS RESERVED.</span><span>COMPOSED WITH INTENTION.</span><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">INSTAGRAM</a><a href="https://www.pinterest.com/" target="_blank" rel="noreferrer">PINTEREST</a></div></div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/923118226278?text=Hello%20ALI%20ESSENCE%2C%20I%20would%20like%20to%20know%20more%20about%20your%20fragrances." target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.96 11.96 0 0 0 3.28 18.05L2 22l4.05-1.28A11.96 11.96 0 1 0 20.52 3.48ZM12 18.3c-1.66 0-3.28-.45-4.69-1.3l-.34-.2-2.4.76.76-2.34-.22-.37A8.42 8.42 0 0 1 12 3.6a8.4 8.4 0 1 1 0 16.7Zm4.97-6.27c-.27-.14-1.61-.79-1.86-.88-.25-.08-.42-.14-.6.13-.18.27-.69.88-.85 1.06-.15.18-.3.2-.56.07-.27-.14-1.13-.42-2.16-1.35-.8-.72-1.34-1.61-1.5-1.88-.16-.27-.02-.42.12-.56l.18-.2c.07-.08.14-.18.21-.3.07-.12.1-.22.16-.35.06-.13.03-.25-.02-.35-.05-.1-.6-1.46-.82-2.01-.22-.54-.44-.46-.6-.47h-.52c-.18 0-.48.07-.73.35-.25.27-1 .99-1 2.4 0 1.42 1.02 2.78 1.16 2.98.14.2 2 3.18 4.86 4.46.7.3 1.25.48 1.67.62.7.22 1.33.19 1.83.11.56-.08 1.61-.66 1.84-1.3.23-.64.23-1.19.16-1.3-.07-.11-.25-.18-.52-.32Z"/></svg>
+  </a>
+  <div class="drawer-backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="drawer-header"><div><p class="footer-label">YOUR SELECTION</p><h2 id="cart-title">The bag <span class="drawer-count">(0)</span></h2></div><button class="drawer-close" type="button" aria-label="Close shopping bag">×</button></div>
+    <div class="cart-items" aria-live="polite"></div>
+    <div class="cart-empty"><span class="empty-mark" aria-hidden="true">AE</span><p>Your bag is waiting for something extraordinary.</p><button class="continue-shopping" type="button">Explore the collection</button></div>
+    <div class="cart-footer"><div class="subtotal"><span>Subtotal</span><span class="subtotal-value">$0</span></div><p>Shipping and taxes calculated at checkout.</p><button class="checkout-button" type="button" disabled>Continue to checkout <span>↗</span></button></div>
+  </aside>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
